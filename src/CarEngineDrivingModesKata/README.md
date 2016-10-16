@@ -8,18 +8,14 @@ This simple Kata helps you:
 
 ## Description
 
-Car engine in [this solution](src/CarEngineDrivingModesKata/CarEngineDrivingModesKata.sln) can have different driving modes. _Normal_ ist the default driving mode.
-See [Main Diagramm](src/CarEngineDrivingModesKata/Engine/MainClassDiagram.cd) can you help understand the current solution.  
+Car engine in [this solution](CarEngineDrivingModesKata.sln) can have different driving modes. _Normal_ ist the default driving mode.
+See [Main Diagramm](Engine/MainClassDiagram.cd) can you help understand the current solution.  
 
 ## Exercise
 
-1. [Unit Test's](src/CarEngineDrivingModesKata/Engine.Tests/Engine.Tests.csproj) assertions are failing, because of missing implementation.
+1. [Unit Test's](Engine.Tests/Engine.Tests.csproj) assertions are failing, because of missing implementation.
 Complete the code and implement _Normal_ Driving Mode.
 2. Implement _Economy_ and _Speed_ drivin modes:
 
     * On _Economy_ mode is maximum ```CurrentThrust``` 60%.
     * On _Speed_ mode is maximum ```CurrentThrust``` 100%.
-    
-## Source Code
-
-Kata [source code](src/CarEngineDrivingModesKata/CarEngineDrivingModesKata/).
