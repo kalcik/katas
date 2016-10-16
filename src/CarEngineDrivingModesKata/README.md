@@ -15,7 +15,7 @@ See [Main Diagramm](Engine/MainClassDiagram.cd) can you help understand the curr
 
 1. [Unit Test's](Engine.Tests/Engine.Tests.csproj) assertions are failing, because of missing implementation.
 Complete the code and implement _Normal_ Driving Mode.
-2. Implement _Economy_ and _Speed_ drivin modes:
+2. Implement _Economy_ and _Speed_ driving modes:
 
-    * On _Economy_ mode is maximum ```CurrentThrust``` 60%.
-    * On _Speed_ mode is maximum ```CurrentThrust``` 100%.
+    * ```CurrentThrust```is on _Economy_ mode maximum  60%.
+    * ```CurrentThrust```is on _Speed_ mode maximum 100%.
