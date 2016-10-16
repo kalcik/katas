@@ -1,6 +1,6 @@
 # Katas Repository
 
-This is repository of different [katas](https://en.wikipedia.org/wiki/Kata_(programming)).
+This repository contains different coding [katas](https://en.wikipedia.org/wiki/Kata_(programming)) to help developers deepen their skills.
 
 ## List of Katas
 
