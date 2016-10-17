@@ -11,7 +11,6 @@
 
 [assembly: AssemblyCompany("Contribution to community by Anton Kalcik | business.software.engineering | http://kalcik.net")]
 [assembly: AssemblyTrademark("")]
-[assembly: AssemblyProduct("CarEngineKata")]
 
 // Version information for an assembly consists of the following four values:
 //
