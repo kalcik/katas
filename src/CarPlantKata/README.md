@@ -1,4 +1,4 @@
-# Car Engine Driving Modes Kata
+# Car Plant Kata
 
 ## Mission
 
