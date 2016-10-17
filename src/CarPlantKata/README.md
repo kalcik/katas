@@ -17,7 +17,7 @@ This car plant is currently under the development, help us the finish them.
     * Can you implement different variant of [Builder Pattern][builder-pattern]?
 2. Change to solution to use [Abstract Factory Pattern][abstract-factory-pattern].
 
-    Confused? See [discussion](http://stackoverflow.com/questions/757743/what-is-the-difference-between-builder-design-pattern-and-factory-design-pattern) for more details.
+    Confused? See [this discussion](http://stackoverflow.com/questions/757743/what-is-the-difference-between-builder-design-pattern-and-factory-design-pattern) for more details.
 
 ## Difficulty
 
