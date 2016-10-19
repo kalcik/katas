@@ -13,7 +13,8 @@ This phone maker wants create a new product phone line. In the future should spe
 
 ## Exercise(s)
 
-1. Implement possibility to support phone _Mods_. 
+1. Implement possibility to support phone _Mods_.
+
 2. Implement following _Mods_:
 
     * BatteryPack Mod enhance the battery.
@@ -25,7 +26,7 @@ This phone maker wants create a new product phone line. In the future should spe
     * Sound Mod add extenal speaker to the phone.
     * Projector add extenal projector to the phone.
 
-4. One third party manufacturer created _SuperChargeBattery_ with capacity of 10000 mAh. Enable to use this battery with the help of [Adapater Pattern][adapter-pattern].
+4. One third party manufacturer created _SuperChargeBattery_ with capacity of 10000 mAh. Enable to use this battery with the help of [Adapter Pattern][adapter-pattern]. _SuperChargeBattery_ is implemented in the [_SuperChargeBattery.dll_](_ExternalAssemblies/SuperChargeBattery.dll).
 
 ## Difficulty
 
