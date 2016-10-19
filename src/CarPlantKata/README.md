@@ -23,5 +23,5 @@ This car plant is currently under the development, help us the finish them.
 
 Beginner
 
-[builder-pattern]: (https://en.wikipedia.org/wiki/Builder_pattern)
-[abstract-factory-pattern]: (https://en.wikipedia.org/wiki/Abstract_factory_pattern)
+[builder-pattern]: https://en.wikipedia.org/wiki/Builder_pattern
+[abstract-factory-pattern]: https://en.wikipedia.org/wiki/Abstract_factory_pattern
