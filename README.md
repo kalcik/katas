@@ -6,6 +6,7 @@ This repository contains different coding [katas](https://en.wikipedia.org/wiki/
 
 * [Car Engine Driving Modes Kata](/src/CarEngineDrivingModesKata/README.md)
 * [Car Plant Kata](/src/CarPlantKata/README.md)
+* [Phone Mods Kata](/src/PhoneModsKata/README.md)
 
 ## Contribute
 
