@@ -4,6 +4,7 @@
 
 This simple Kata helps you:
 * Understand and exercise [Decorator Pattern](https://en.wikipedia.org/wiki/Decorator_pattern).
+* Understand and exercise [Adapter Pattern][adapter-pattern].
 * Exercise [TDD](https://en.wikipedia.org/wiki/Test-driven_development).
 
 ## Description
@@ -15,15 +16,19 @@ This phone maker wants create a new product phone line. In the future should spe
 1. Implement possibility to support phone _Mods_. 
 2. Implement following _Mods_:
 
-    * BatteryPack Mod enhance battery.
-    * PowerPack enhance processor.
-    * CameraPack enhance camera.
+    * BatteryPack Mod enhance the battery.
+    * PowerPack enhance the processor.
+    * CameraPack enhance the camera.
 
 3. Implement _Mods_ which adds external fucntionality:
 
-    * Sound Mod add extenal speaker.
-    * Projector add extenal projector.
+    * Sound Mod add extenal speaker to the phone.
+    * Projector add extenal projector to the phone.
+
+4. One third party manufacturer created _SuperChargeBattery_ with capacity of 10000 mAh. Enable to use this battery with the help of [Adapater Pattern][adapter-pattern].
 
 ## Difficulty
 
 Beginner
+
+[adapter-pattern]: https://en.wikipedia.org/wiki/Adapter_pattern
