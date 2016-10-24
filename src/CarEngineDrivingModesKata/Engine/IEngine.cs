@@ -1,5 +1,7 @@
-﻿namespace Interfaces
+﻿namespace Engine
 {
+    using DrivingModes;
+
     public interface IEngine
     {
         decimal CurrentThrust { get; set; }

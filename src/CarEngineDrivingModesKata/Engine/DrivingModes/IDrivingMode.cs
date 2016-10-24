@@ -1,4 +1,4 @@
-﻿namespace Interfaces
+﻿namespace Engine.DrivingModes
 {
     public interface IDrivingMode
     {

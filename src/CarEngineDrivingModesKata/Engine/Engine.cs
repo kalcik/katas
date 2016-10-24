@@ -1,7 +1,7 @@
 ﻿namespace Engine
 {
     using System;
-    using Interfaces;
+    using DrivingModes;
 
     public class Engine : IEngine
     {
@@ -16,7 +16,7 @@
 
         public void ChangeDrivingMode(IDrivingMode drivingMode)
         {
-            DrivingMode = drivingMode;
+            throw new NotImplementedException();
         }
 
         public void Decelerate()

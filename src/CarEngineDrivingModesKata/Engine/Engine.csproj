@@ -40,18 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DrivingModes\IDrivingMode.cs" />
     <Compile Include="Engine.cs" />
+    <Compile Include="IEngine.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\DrivingMode\DrivingMode.csproj">
-      <Project>{5BF0C373-DF89-4F56-A100-DFE1BA74E438}</Project>
-      <Name>DrivingMode</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Interfaces\Interfaces.csproj">
-      <Project>{41DD7FFC-CD5A-4C8D-8492-5AFB343C9211}</Project>
-      <Name>Interfaces</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="MainClassDiagram.cd" />

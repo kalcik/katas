@@ -1,7 +1,6 @@
 ﻿namespace Engine.Tests
 {
     using FluentAssertions;
-    using Interfaces;
     using Xunit;
 
     public class EngineTests
