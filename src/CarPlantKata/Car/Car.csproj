@@ -44,14 +44,12 @@
       <Link>Properties\CommonAssemblyInfo.cs</Link>
     </Compile>
     <Compile Include="Car.cs" />
-    <Compile Include="Parts\Chassis\IChassis.cs" />
     <Compile Include="Parts\Engine\IEngine.cs" />
     <Compile Include="Parts\Exterior\Color.cs" />
     <Compile Include="Parts\Extras\Autopilot.cs" />
     <Compile Include="Parts\Extras\IExtraPackage.cs" />
     <Compile Include="Parts\Extras\SubzeroWeatherPackage.cs" />
     <Compile Include="Parts\Extras\UltraHighFidelitySound.cs" />
-    <Compile Include="Parts\Interior\InteriorColor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
