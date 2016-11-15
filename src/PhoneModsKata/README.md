@@ -27,9 +27,3 @@ This phone maker wants create a new product phone line. In the future should spe
     * Projector add extenal projector to the phone.
 
 4. One third party manufacturer created _SuperChargeBattery_ with capacity of 10000 mAh. Enable to use this battery with the help of [Adapter Pattern][adapter-pattern]. _SuperChargeBattery_ is implemented in the [_SuperChargeBattery.dll_](_ExternalAssemblies/SuperChargeBattery.dll).
-
-## Difficulty
-
-Beginner
-
-[adapter-pattern]: https://en.wikipedia.org/wiki/Adapter_pattern
