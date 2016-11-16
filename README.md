@@ -20,6 +20,7 @@ This repository contains different coding [Katas][kata] to help developers deepe
 * [Car Engine Driving Modes Kata](/src/CarEngineDrivingModesKata/README.md)
 * [Car Plant Kata](/src/CarPlantKata/README.md)
 * [Phone Mods Kata](/src/PhoneModsKata/README.md)
+* [Game of Life Kata](/src/GameOfLifeKata/README.md)
 
 ## Contribute
 
