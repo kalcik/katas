@@ -6,11 +6,10 @@
         {
             Resolution = 16.0f;
             DigitalZoom = 3;
-            OpticalZoom = 0;
         }
 
-        public float Resolution { get; }
         public byte DigitalZoom { get; }
-        public byte OpticalZoom { get; }
+
+        public float Resolution { get; }
     }
 }

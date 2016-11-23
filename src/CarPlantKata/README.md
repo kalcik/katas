@@ -19,9 +19,5 @@ This car plant is currently under the development, help us the finish them.
 
     Confused? See [this discussion](http://stackoverflow.com/questions/757743/what-is-the-difference-between-builder-design-pattern-and-factory-design-pattern) for more details.
 
-## Difficulty
-
-Beginner
-
 [builder-pattern]: https://en.wikipedia.org/wiki/Builder_pattern
 [abstract-factory-pattern]: https://en.wikipedia.org/wiki/Abstract_factory_pattern

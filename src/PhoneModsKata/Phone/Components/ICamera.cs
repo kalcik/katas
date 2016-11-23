@@ -4,6 +4,5 @@
     {
         float Resolution { get; }
         byte DigitalZoom { get; }
-        byte OpticalZoom { get; }
     }
 }
