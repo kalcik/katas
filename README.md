@@ -13,7 +13,7 @@ This repository contains different coding [Katas][kata] to help developers deepe
 * Write code, colaborate, discuss and share.
 * Code without tests doesn't exists.
 * Work incrementally, commit often.
-* Share respect, piece and love.
+* Share respect, peace and love.
 
 ## List of Katas
 
