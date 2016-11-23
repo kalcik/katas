@@ -12,7 +12,7 @@ Create simple String Calculator.
 
 ## Exercise(s)
 
-1. Create a simple String calculator with a method.
+1. Create a simple String calculator with a method:
     ```cs 
     int Add(string numbers){}; 
     ``` 
