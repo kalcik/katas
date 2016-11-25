@@ -61,7 +61,7 @@ All provided negative numbers should be shown in  ```Exception``` message.
     Example(s):
     ```cs
     Add("1,500\n1000") //returns 501
-    Add("1,1001") //returns 2
+    Add("1,1001") //returns 1
     ```
 
 7. Delimiters can be of any length.
