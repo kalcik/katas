@@ -82,7 +82,7 @@ All provided negative numbers should be shown in  ```Exception``` message.
     ```cs
     Add("//[*][%]\n1*2%3") //returns 6
     Add("//[*][%%]\n1*2%%3") //returns 6
-    Add("//[*][%%]\n1%%2*6") //returns 8
+    Add("//[*][%%]\n1%%2*6") //returns 9
     ```
 
 ## Credits
