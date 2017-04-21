@@ -1,5 +1,6 @@
 ﻿namespace TicketPortalApi.Repositories
 {
+    using System;
     using System.Threading.Tasks;
     using Models;
 
@@ -7,7 +8,7 @@
     {
         public async Task SaveTicket(Ticket ticket)
         {
-            
+            throw new NotImplementedException();
         }
     }
 }

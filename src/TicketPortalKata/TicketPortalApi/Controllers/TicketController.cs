@@ -1,37 +1,17 @@
 ﻿namespace TicketPortalApi.Controllers
 {
+    using System;
     using System.Threading.Tasks;
     using System.Web.Http;
     using Models;
 
     public class TicketController : ApiController
     {
-        //// GET: api/Ticket
-        //public IEnumerable<string> Get()
-        //{
-        //    return new string[] { "value1", "value2" };
-        //}
-
-        //// GET: api/Ticket/5
-        //public string Get(int id)
-        //{
-        //    return "value";
-        //}
-
         // POST: api/Ticket
         public async Task<IHttpActionResult> Post([FromBody] Ticket ticket)
         {
-            return Ok();
+            throw new NotImplementedException();
         }
 
-        // PUT: api/Ticket/5
-        //public void Put(int id, [FromBody]string value)
-        //{
-        //}
-
-        //// DELETE: api/Ticket/5
-        //public void Delete(int id)
-        //{
-        //}
     }
 }
