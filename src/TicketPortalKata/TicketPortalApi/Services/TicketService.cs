@@ -4,7 +4,7 @@
     using System.Threading.Tasks;
     using Models;
 
-    public class TickerService
+    public class TicketService
     {
         public async Task BuyTicket(Ticket ticket)
         {
