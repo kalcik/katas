@@ -1,15 +1,33 @@
 ﻿namespace TicketPortal.Tests.Integration.Api
 {
     using System;
+    using System.Diagnostics.CodeAnalysis;
+    using System.Net;
+    using System.Threading.Tasks;
     using FluentAssertions;
     using RestSharp;
     using TicketPortalApi.Models;
     using Xunit;
 
-    public class TicketPortalApiTests
+    [ExcludeFromCodeCoverage]
+    public class TicketPortalApiTests : IDisposable
     {
+        readonly Ticket _ticketToBuy = new Ticket
+                              {
+                                  CustomerName = "SampleCustomerName",
+                                  Movie = "SampleMovie",
+                                  MovieTheater = "SampleMovieTheater",
+                                  ReservationDateTime = new DateTime(2017, 4, 30, 18, 0, 0),
+                                  SeatNumber = 5
+                              };
+
+        public void Dispose()
+        {
+            Task.WaitAll(DbHelper.DeleteTicket(_ticketToBuy));
+        }
+
         [Fact]
-        public void TicketBuyIsCorrect()
+        public async Task TicketBuyIsCorrect()
         {
             var request = new RestRequest
                           {
@@ -17,20 +35,14 @@
                               Resource = "Ticket",
                               Method = Method.POST
                           };
-            var ticket = new Ticket
-                         {
-                             CustomerName = "SampleCustomerName",
-                             Movie = "SampleMovie",
-                             MovieTheater = "SampleMovieTheater",
-                             ReservationDateTime = new DateTime(2017, 4, 30, 18, 0, 0),
-                             SeatNumber = 5
-                         };
-            request.AddBody(ticket);
+            request.AddBody(_ticketToBuy);
 
-            var restClient = new RestClient("http://neo:24280");
+            var restClient = new RestClient("http://localhost:24280");
             var response = restClient.Execute(request);
 
-            response.StatusCode.Should().Be(200);
+            response.StatusCode.Should().Be(HttpStatusCode.OK);
+            var ticketExistsInStore = await DbHelper.ExistsOnce(_ticketToBuy);
+            ticketExistsInStore.Should().BeTrue();
         }
     }
 }

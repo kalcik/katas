@@ -77,13 +77,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DbAssert.cs" />
+    <Compile Include="DbHelper.cs" />
     <Compile Include="Integration\Api\TicketPortalApiTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Unit\TicketServiceTests.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
-    <None Include="packages.config" />
+    <Content Include="..\ConnectionStrings.config">
+      <Link>ConnectionStrings.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="App.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\TicketPortalApi\TicketPortalApi.csproj">
@@ -93,6 +102,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Integration\Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

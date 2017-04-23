@@ -6,7 +6,7 @@
     [DataContract]
     public class Ticket
     {
-        public string Id { get; set; }
+        public int Id { get; set; }
         [DataMember]
         public string CustomerName { get; set; }
         [DataMember]
