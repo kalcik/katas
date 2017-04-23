@@ -22,6 +22,7 @@ This repository contains different coding [Katas][kata] to help developers deepe
 * [Phone Mods Kata](/src/PhoneModsKata/README.md)
 * [Game of Life Kata](/src/GameOfLifeKata/README.md)
 * [String Calculator Kata](/src/StringCalculatorKata/README.md)
+* [Ticket Portal Kata](/src/TicketPortalKata/README.md)
 
 ## Contribute
 
