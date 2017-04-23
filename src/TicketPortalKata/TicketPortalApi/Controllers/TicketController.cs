@@ -8,9 +8,9 @@
 
     public class TicketController : ApiController
     {
-        private readonly TicketService _ticketService;
+        private readonly ITicketService _ticketService;
 
-        public TicketController(TicketService ticketService)
+        public TicketController(ITicketService ticketService)
         {
             if (ticketService == null) { throw new ArgumentNullException(nameof(ticketService)); }
             _ticketService = ticketService;

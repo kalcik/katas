@@ -12,14 +12,7 @@
     [ExcludeFromCodeCoverage]
     public class TicketPortalApiTests : IDisposable
     {
-        readonly Ticket _ticketToBuy = new Ticket
-                              {
-                                  CustomerName = "SampleCustomerName",
-                                  Movie = "SampleMovie",
-                                  MovieTheater = "SampleMovieTheater",
-                                  ReservationDateTime = new DateTime(2017, 4, 30, 18, 0, 0),
-                                  SeatNumber = 5
-                              };
+        private readonly Ticket _ticketToBuy = TicketHelper.CreateTicket();
 
         public void Dispose()
         {

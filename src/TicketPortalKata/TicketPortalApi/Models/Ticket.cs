@@ -10,7 +10,7 @@
         [DataMember]
         public string CustomerName { get; set; }
         [DataMember]
-        public string Movie { get; set; }
+        public string MovieName { get; set; }
         [DataMember]
         public string MovieTheater { get; set; }
         [DataMember]

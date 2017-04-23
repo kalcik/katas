@@ -17,15 +17,13 @@ namespace TicketPortal.Tests
             TicketPortalDb = new TicketPortalDb();
         }
 
-
-
         public static async Task<bool> ExistsOnce(Ticket ticket)
         {
             var ticketReservationTimeAsUtc = ticket.ReservationDateTime.ToUniversalTime();
             int count = await TicketPortalDb.Tickets
                                       .CountAsync(ticketToSearch => ticketToSearch.ReservationDateTime == ticketReservationTimeAsUtc
                                                   && ticketToSearch.CustomerName == ticket.CustomerName
-                                                  && ticketToSearch.Movie == ticket.Movie
+                                                  && ticketToSearch.MovieName == ticket.MovieName
                                                   && ticketToSearch.MovieTheater == ticket.MovieTheater
                                                   && ticketToSearch.SeatNumber == ticket.SeatNumber);
 
@@ -37,7 +35,7 @@ namespace TicketPortal.Tests
             var ticketReservationTimeAsUtc = ticket.ReservationDateTime.ToUniversalTime();
             var foundTicket = await TicketPortalDb.Tickets.SingleOrDefaultAsync(ticketToSearch => ticketToSearch.ReservationDateTime == ticketReservationTimeAsUtc
                                                                            && ticketToSearch.CustomerName == ticket.CustomerName
-                                                                           && ticketToSearch.Movie == ticket.Movie
+                                                                           && ticketToSearch.MovieName == ticket.MovieName
                                                                            && ticketToSearch.MovieTheater == ticket.MovieTheater
                                                                            && ticketToSearch.SeatNumber == ticket.SeatNumber);
             TicketPortalDb.Tickets.Remove(foundTicket);

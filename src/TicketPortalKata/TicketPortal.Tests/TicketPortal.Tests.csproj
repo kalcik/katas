@@ -80,7 +80,9 @@
     <Compile Include="DbHelper.cs" />
     <Compile Include="Integration\Api\TicketPortalApiTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Unit\TicketRepositoryTests.cs" />
     <Compile Include="Unit\TicketServiceTests.cs" />
+    <Compile Include="TicketHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="..\ConnectionStrings.config">

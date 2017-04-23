@@ -5,21 +5,24 @@
     using Models;
     using Repositories;
 
-    public class TicketService
-    {
-        private readonly TicketPortalDb _database;
+    public interface ITicketService {
+        Task BuyTicket(Ticket ticket);
+    }
 
-        public TicketService(TicketPortalDb database)
+    public class TicketService : ITicketService
+    {
+        private readonly ITicketRepository _ticketRepository;
+
+        public TicketService(ITicketRepository ticketRepository)
         {
-            if (database == null) { throw new ArgumentNullException(nameof(database)); }
-            _database = database;
+            if (ticketRepository == null) { throw new ArgumentNullException(nameof(ticketRepository)); }
+            _ticketRepository = ticketRepository;
         }
 
         public async Task BuyTicket(Ticket ticket)
         {
             if (ticket == null) { throw new ArgumentNullException(nameof(ticket)); }
-            _database.Tickets.Add(ticket);
-            await _database.SaveChangesAsync();
+            await _ticketRepository.SaveTicket(ticket);
         }
     }
 }
