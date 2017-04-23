@@ -78,10 +78,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DbHelper.cs" />
-    <Compile Include="Integration\Api\TicketPortalApiTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Unit\TicketRepositoryTests.cs" />
-    <Compile Include="Unit\TicketServiceTests.cs" />
     <Compile Include="TicketHelper.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -103,7 +100,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Integration\Services\" />
+    <Folder Include="Integration\" />
+    <Folder Include="Unit\" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
