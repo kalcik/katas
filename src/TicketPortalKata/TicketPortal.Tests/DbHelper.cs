@@ -19,9 +19,8 @@ namespace TicketPortal.Tests
 
         public static async Task<bool> ExistsOnce(Ticket ticket)
         {
-            var ticketReservationTimeAsUtc = ticket.ReservationDateTime.ToUniversalTime();
             int count = await TicketPortalDb.Tickets
-                                      .CountAsync(ticketToSearch => ticketToSearch.ReservationDateTime == ticketReservationTimeAsUtc
+                                      .CountAsync(ticketToSearch => ticketToSearch.ReservationDateTime == ticket.ReservationDateTime
                                                   && ticketToSearch.CustomerName == ticket.CustomerName
                                                   && ticketToSearch.MovieName == ticket.MovieName
                                                   && ticketToSearch.MovieTheater == ticket.MovieTheater
