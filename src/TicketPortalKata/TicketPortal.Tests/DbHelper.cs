@@ -31,8 +31,7 @@ namespace TicketPortal.Tests
 
         public static async Task DeleteTicket(Ticket ticket)
         {
-            var ticketReservationTimeAsUtc = ticket.ReservationDateTime.ToUniversalTime();
-            var foundTicket = await TicketPortalDb.Tickets.SingleOrDefaultAsync(ticketToSearch => ticketToSearch.ReservationDateTime == ticketReservationTimeAsUtc
+            var foundTicket = await TicketPortalDb.Tickets.SingleOrDefaultAsync(ticketToSearch => ticketToSearch.ReservationDateTime == ticket.ReservationDateTime
                                                                            && ticketToSearch.CustomerName == ticket.CustomerName
                                                                            && ticketToSearch.MovieName == ticket.MovieName
                                                                            && ticketToSearch.MovieTheater == ticket.MovieTheater
