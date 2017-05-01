@@ -38,6 +38,8 @@
 
         private static void RegisterServices(ContainerBuilder iocContainerBuilder)
         {
+            iocContainerBuilder.RegisterType<TicketRepository>().As<ITicketRepository>().InstancePerRequest();
+            iocContainerBuilder.RegisterType<TicketService>().As<ITicketService>().InstancePerRequest();
+            iocContainerBuilder.RegisterType<TicketPortalDb>().InstancePerRequest();
         }
-    }
 }
