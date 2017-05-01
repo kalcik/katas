@@ -14,7 +14,6 @@ namespace TicketPortal.Tests
         public const string CustomerName = "SampleCustomerName";
         public const string MovieName = "SampleMovieName";
         public const string MovieTheater = "SampleMovieTheater";
-        public static DateTime ReservationDateTime = new DateTime(2017, 4, 30, 18, 0, 0);
         public const int SeatNumber = 5;
 
         public static Ticket CreateTicket()
@@ -24,7 +23,6 @@ namespace TicketPortal.Tests
                        CustomerName = CustomerName,
                        MovieName = MovieName,
                        MovieTheater = MovieTheater,
-                       ReservationDateTime = ReservationDateTime,
                        SeatNumber = SeatNumber
                    };
         }

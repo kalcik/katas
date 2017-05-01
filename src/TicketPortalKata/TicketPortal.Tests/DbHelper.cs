@@ -20,8 +20,8 @@ namespace TicketPortal.Tests
         public static async Task<bool> ExistsOnce(Ticket ticket)
         {
             int count = await TicketPortalDb.Tickets
-                                      .CountAsync(ticketToSearch => ticketToSearch.ReservationDateTime == ticket.ReservationDateTime
-                                                  && ticketToSearch.CustomerName == ticket.CustomerName
+                                      .CountAsync(ticketToSearch =>
+                                                     ticketToSearch.CustomerName == ticket.CustomerName
                                                   && ticketToSearch.MovieName == ticket.MovieName
                                                   && ticketToSearch.MovieTheater == ticket.MovieTheater
                                                   && ticketToSearch.SeatNumber == ticket.SeatNumber);
@@ -31,8 +31,8 @@ namespace TicketPortal.Tests
 
         public static async Task DeleteTicket(Ticket ticket)
         {
-            var foundTicket = await TicketPortalDb.Tickets.SingleOrDefaultAsync(ticketToSearch => ticketToSearch.ReservationDateTime == ticket.ReservationDateTime
-                                                                           && ticketToSearch.CustomerName == ticket.CustomerName
+            var foundTicket = await TicketPortalDb.Tickets.SingleOrDefaultAsync(ticketToSearch =>
+                                                                              ticketToSearch.CustomerName == ticket.CustomerName
                                                                            && ticketToSearch.MovieName == ticket.MovieName
                                                                            && ticketToSearch.MovieTheater == ticket.MovieTheater
                                                                            && ticketToSearch.SeatNumber == ticket.SeatNumber);
