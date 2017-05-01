@@ -13,7 +13,7 @@ Create REST Ticket Portal API to buy the tickets. Write Unit- and Integration te
 
 To allow you be focused on the solution, there is already some implementation in the place. ```public async Task<IHttpActionResult> Post([FromBody] Ticket ticket)``` in [```TicketController.cs```][path-to-ticket-controller] is the entry point for the client to use Ticket Portal API. [```Ticket```](TicketPortalApi/Models/Ticket.cs) model used by this method can be used down to the all classes, which is not usual but the focus of this Kata is on different topic. Classes like [```TicketService.cs```](TicketPortalApi/Services/TicketService.cs) and [```TicketRepository.cs```](TicketPortalApi/Repositories/TicketRepository.cs) can be also helpful as they represent important part of repository pattern and mimic the business and data access layer. Database access is implemented in [```TicketPortalDb.cs```](TicketPortalApi/Repositories/TicketPortalDb.cs).
 
-In the [```Global.asax```](TicketPortalApi/Global.asax) is ready to use [Autofac][autofac] configuration. You just only need to implement the method ```private static void RegisterServices(ContainerBuilder iocContainerBuilder)``` where you need to register your own services if necessary. 
+In the [```Global.asax```](TicketPortalApi/Global.asax.cs) is ready to use [Autofac][autofac] configuration. You just only need to implement the method ```private static void RegisterServices(ContainerBuilder iocContainerBuilder)``` where you need to register your own services if necessary. 
 
 To call the api you can use for example [Visual Studio Code's](https://code.visualstudio.com/) extension called [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client).
 
