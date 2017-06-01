@@ -17,12 +17,13 @@ This repository contains different coding [Katas][kata] to help developers deepe
 
 ## List of Katas
 
-* [Car Engine Driving Modes Kata](/src/CarEngineDrivingModesKata/README.md)
-* [Car Plant Kata](/src/CarPlantKata/README.md)
-* [Phone Mods Kata](/src/PhoneModsKata/README.md)
-* [Game of Life Kata](/src/GameOfLifeKata/README.md)
-* [String Calculator Kata](/src/StringCalculatorKata/README.md)
-* [Ticket Portal Kata](/src/TicketPortalKata/README.md)
+* [Car Engine Driving Modes Kata](src/CarEngineDrivingModesKata/README.md)
+* [Car Plant Kata](src/CarPlantKata/README.md)
+* [Phone Mods Kata](src/PhoneModsKata/README.md)
+* [Game of Life Kata](src/GameOfLifeKata/README.md)
+* [String Calculator Kata](src/StringCalculatorKata/README.md)
+* [Ticket Portal Kata](src/TicketPortalKata/README.md)
+* [Car Rental Kata](src/CarRentalKata/README.md)
 
 ## Contribute
 
