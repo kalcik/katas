@@ -42,4 +42,5 @@
             iocContainerBuilder.RegisterType<TicketService>().As<ITicketService>().InstancePerRequest();
             iocContainerBuilder.RegisterType<TicketPortalDb>().InstancePerRequest();
         }
+    }
 }
