@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CarRental.Entities.CarEntity">
+    <Position X="9.75" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAMACQAAAQAAAAAAAAAQAACAA=</HashCode>
+      <FileName>CarEntity.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Office" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CarRental.Entities.CustomerEntity">
+    <Position X="2.75" Y="2.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EgAAAEAAAEAAAICIAAAAgAAAAAAQABAAAAICAAAAAAg=</HashCode>
+      <FileName>CustomerEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarRental.Entities.InvoiceEntity">
+    <Position X="7.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InvoiceEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarRental.Entities.OfficeEntity">
+    <Position X="12.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAgAAAAAAAAAAAAAIAAAQAAAA=</HashCode>
+      <FileName>OfficeEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarRental.Entities.ReservationEntity">
+    <Position X="7.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAQBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>ReservationEntity.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Car" />
+      <Property Name="Customer" />
+      <Property Name="Invoice" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
