@@ -6,6 +6,7 @@ This Kata helps you:
 * Exercise refactoring
 * Exercise Clean Code, Design and [SOLID](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)) principles
 * Exercise [TDD](https://en.wikipedia.org/wiki/Test-driven_development), [Unit-](https://en.wikipedia.org/wiki/Unit_testing) and [Integration Tests](https://www.youtube.com/watch?v=vqAaMVoKz1c)
+* Exercise [Repository Pattern][RepositoryPattern]
 
 ## Description
 
@@ -36,6 +37,12 @@ Customer Type|Car Category|Discount|
 |Business Premium|C|8 %|
 |Business Premium|D|12 %|
 
+## Architecture and Desing
+
+The solution utilise the [Repository Pattern][RepositoryPattern].
+
+![Layer Diagram](_images/layer_diagram.png)
+
 ## Exercise(s)
 
 1. Find and discuss all of the issues you find at the [CarRentalBusinessLayer][CarRentalBusinessLayer].
@@ -43,3 +50,4 @@ Customer Type|Car Category|Discount|
 2. Refactor the method ```FindAvailableCarsForRental``` with regard to the issues you found.  **Back up you changes with unit tests**.
 
 [CarRentalBusinessLayer]:CarRental.BusinessLayer/CarRentalBusinessLayer.cs
+[RepositoryPattern]:https://msdn.microsoft.com/en-us/library/ff649690.aspx
