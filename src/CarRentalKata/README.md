@@ -5,7 +5,7 @@
 This Kata helps you:
 * Exercise refactoring
 * Exercise Clean Code, Design and [SOLID](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)) principles
-* Exercise [TDD](https://en.wikipedia.org/wiki/Test-driven_development), [Unit Tests](https://en.wikipedia.org/wiki/Unit_testing) [Integration Tests](https://www.youtube.com/watch?v=vqAaMVoKz1c)
+* Exercise [TDD](https://en.wikipedia.org/wiki/Test-driven_development), [Unit-](https://en.wikipedia.org/wiki/Unit_testing) and [Integration Tests](https://www.youtube.com/watch?v=vqAaMVoKz1c)
 
 ## Description
 
