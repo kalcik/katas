@@ -3,7 +3,7 @@
 ## Mission
 
 This Kata helps you:
-* Exercise [TDD][tdd].
+* Exercise [TDD][tdd]
 
 ## Description
 

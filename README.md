@@ -19,17 +19,17 @@ This repository contains different coding [Katas][kata] to help developers deepe
 
 * [Car Engine Driving Modes Kata](src/CarEngineDrivingModesKata/README.md)
 * [Car Plant Kata](src/CarPlantKata/README.md)
-* [Phone Mods Kata](src/PhoneModsKata/README.md)
+* [Car Rental Kata](src/CarRentalKata/README.md)
 * [Game of Life Kata](src/GameOfLifeKata/README.md)
+* [Phone Mods Kata](src/PhoneModsKata/README.md)
 * [String Calculator Kata](src/StringCalculatorKata/README.md)
 * [Ticket Portal Kata](src/TicketPortalKata/README.md)
-* [Car Rental Kata](src/CarRentalKata/README.md)
+
 
 ## Contribute
 
 If you have any ideas, just open an [open an issue][issues]. 
-If you'd like to contribute, please fork the repository and make changes as you'd like. 
-You should make a [pull request][pull-requests] only on [dev branch][dev-branch].
+If you'd like to contribute, please fork the repository and make changes as you'd like and than make a [pull request][pull-requests] (only on [dev branch][dev-branch]).
 
 [issues]: https://github.com/kalcik/katas/issues/new
 [pull-requests]: https://github.com/kalcik/katas/pulls/new

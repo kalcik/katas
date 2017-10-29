@@ -3,9 +3,9 @@
 ## Mission
 
 This simple Kata helps you:
-* Understand and exercise [Builder Pattern][builder-pattern].
-* Understand and exercise [Abstract Factory Pattern][abstract-factory-pattern].
-* Exercise [TDD](https://en.wikipedia.org/wiki/Test-driven_development).
+* Understand and exercise [Builder Pattern][builder-pattern]
+* Understand and exercise [Abstract Factory Pattern][abstract-factory-pattern]
+* Exercise [TDD](https://en.wikipedia.org/wiki/Test-driven_development)
 
 ## Description
 

@@ -3,9 +3,9 @@
 ## Mission
 
 This simple Kata helps you:
-* Understand and exercise [Decorator Pattern](decorator-pattern).
-* Understand and exercise [Adapter Pattern][adapter-pattern].
-* Exercise [TDD](https://en.wikipedia.org/wiki/Test-driven_development).
+* Understand and exercise [Decorator Pattern](decorator-pattern)
+* Understand and exercise [Adapter Pattern][adapter-pattern]
+* Exercise [TDD](https://en.wikipedia.org/wiki/Test-driven_development)
 
 ## Description
 

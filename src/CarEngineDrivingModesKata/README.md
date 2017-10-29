@@ -3,8 +3,8 @@
 ## Mission
 
 This simple Kata helps you:
-* Understand and exercise [Strategy Pattern](https://en.wikipedia.org/wiki/Strategy_pattern).
-* Exercise [TDD](https://en.wikipedia.org/wiki/Test-driven_development).
+* Understand and exercise [Strategy Pattern](https://en.wikipedia.org/wiki/Strategy_pattern)
+* Exercise [TDD](https://en.wikipedia.org/wiki/Test-driven_development)
 
 ## Description
 
