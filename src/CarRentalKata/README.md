@@ -37,7 +37,7 @@ Customer Type|Car Category|Discount|
 |Business Premium|C|8 %|
 |Business Premium|D|12 %|
 
-## Architecture and Desing
+## Architecture and Design
 
 The solution utilise the [Repository Pattern][RepositoryPattern].
 
